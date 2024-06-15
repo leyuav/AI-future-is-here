@@ -24,8 +24,7 @@
   align-items: flex-start;
 }
 
-.gpt3__possibility-content h4,
-.gpt3__possibility-content h4:last-child {
+.gpt3__possibility-content h4 {
   font-family: var(--font-family);
   font-size: 18px;
   font-weight: 400;
@@ -40,16 +39,33 @@
 }
 
 .gpt3__possibility-content h1 {
-  font-family: var(font-family);
+  font-family: var(--font-family);
   font-size: 34px;
   font-weight: 800;
   line-height: 45px;
+  margin-top: 1.2rem;
+  margin-bottom: 1.5rem;
 }
 
 .gpt3__possibility-content p {
-  font-family: var(font-family);
+  font-family: var(--font-family);
   font-size: 18px;
   font-weight: 400;
   line-height: 32px;
   color: var(--color-text);
+  margin-bottom: 1.5rem;
+}
+
+@media screen and (max-width: 950px) {
+  .gpt3__possibility {
+    flex-direction: column;
+  }
+
+  .gpt3__possibility-image {
+    margin: 1rem 0;
+  }
+
+  .gpt3__possibility-content {
+    margin-top: 2rem;
+  }
 }
