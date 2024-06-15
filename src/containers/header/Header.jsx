@@ -22,10 +22,9 @@ const Header = () => {
           <img src={people} alt="profile pictures of people using our app" />
           <p>1,600 people requested access a visit in last 24 hours</p>
         </div>
-
-        <div className="gpt3__header-image">
-          <img src={ai} alt="graphic design picture of artificial intelligence" />
-        </div>
+      </div>
+      <div className="gpt3__header-image">
+        <img src={ai} alt="graphic design picture of artificial intelligence" />
       </div>
     </div>
   );
