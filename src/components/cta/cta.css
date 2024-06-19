@@ -1,4 +1,4 @@
-.gpt3__cta {
+.gpt4__cta {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -9,7 +9,7 @@
   background: var(--gradient-bar);
 }
 
-.gpt3__cta-content p {
+.gpt4__cta-content p {
   font-family: var(--font-family);
   font-size: 14px;
   font-weight: 400;
@@ -19,7 +19,7 @@
   color: #0e0e0e;
 }
 
-.gpt3__cta-content h3 {
+.gpt4__cta-content h3 {
   font-family: var(--font-family);
   font-size: 26px;
   font-weight: 800;
@@ -27,13 +27,13 @@
   color: #000;
 }
 
-.gpt3__cta-button {
+.gpt4__cta-button {
   display: flex;
   justify-content: center;
   align-items: center;
   margin: 0 2rem;
 }
-.gpt3__cta-button button {
+.gpt4__cta-button button {
   font-family: var(--font-family);
   font-size: 18px;
   font-weight: 700;
@@ -49,30 +49,30 @@
 }
 
 @media screen and (max-width: 650px) {
-  .gpt3__cta {
+  .gpt4__cta {
     flex-direction: column;
   }
 
-  .gpt3__cta-button {
+  .gpt4__cta-button {
     margin: 2rem 0 0;
   }
 }
 
 @media screen and (max-width: 550px) {
-  .gpt3__cta {
+  .gpt4__cta {
     margin: 4rem 2rem;
   }
 
-  .gpt3__cta-content h3 {
+  .gpt4__cta-content h3 {
     font-size: 22px;
     line-height: 36px;
   }
 
-  .gpt3__cta-button {
+  .gpt4__cta-button {
     margin: 1rem 0 0;
   }
 
-  .gpt3__cta-button button {
+  .gpt4__cta-button button {
     font-size: 14px;
     line-height: 28px;
   }
